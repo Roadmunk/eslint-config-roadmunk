@@ -1,0 +1,6 @@
+{
+	"name"        : "eslint-config-roadmunk",
+	"version"     : "1.0.0",
+	"description" : "This holds the base Roadmunk shop standard ESLint configuration file.",
+	"repository"  : "https://github.com/roadmunk/eslint-config-roadmunk.git"
+}
