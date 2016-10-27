@@ -38,6 +38,7 @@ module.exports = {
 		'no-unused-vars' : 'error',
 
 		// Stylistic
+		'arrow-body-style'         : [ 'warn' ],
 		'block-spacing'            : [ 'warn' ],
 		'brace-style'              : [ 'warn', 'stroustrup', { allowSingleLine : true }],
 		'camelcase'                : [ 'warn', { properties : 'always' }],
