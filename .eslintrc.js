@@ -58,7 +58,7 @@ module.exports = {
 		'yoda'                  : [ 'warn' ],
 		'no-undef-init'         : [ 'warn' ],
 		'array-bracket-spacing' : [ 'warn', 'always', { objectsInArrays : false, arraysInArrays : false }],
-		'comma-dangle'          : [ 'warn', { objects : 'always-multiline' }],
+		'comma-dangle'          : [ 'warn', { objects : 'always-multiline', arrays : 'always-multiline' }],
 		'comma-spacing'         : [ 'warn' ],
 		'comma-style'           : [ 'warn' ],
 		'curly'                    : [ 'warn', 'multi-or-nest', 'consistent' ],
