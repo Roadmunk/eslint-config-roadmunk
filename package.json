@@ -1,6 +1,10 @@
 {
 	"name"        : "eslint-config-roadmunk",
-	"version"     : "1.0.1",
+	"version"     : "1.0.2",
 	"description" : "This holds the base Roadmunk shop standard ESLint configuration file.",
-	"repository"  : "https://github.com/roadmunk/eslint-config-roadmunk.git"
+	"license"     : "MIT",
+	"repository"  : "Roadmunk/eslint-config-roadmunk",
+	"peerDependencies": {
+		"eslint" : "~3.0"
+	}
 }
