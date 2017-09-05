@@ -34,6 +34,9 @@ module.exports = {
 		'no-loop-func'    : 'error',
 		'no-implied-eval' : 'warn',
 
+		// Documentation
+		'valid-jsdoc' : ['error', { requireReturn : false }],
+
 		// Variables
 		'no-unused-vars' : 'error',
 
@@ -61,7 +64,7 @@ module.exports = {
 		'comma-dangle'          : [ 'warn', { objects : 'always-multiline', arrays : 'always-multiline' }],
 		'comma-spacing'         : [ 'warn' ],
 		'comma-style'           : [ 'warn' ],
-		'curly'                    : [ 'warn', 'multi-or-nest', 'consistent' ],
+		'curly'                 : [ 'warn' ],
 		'eol-last'              : [ 'warn' ],
 		'func-call-spacing'     : [ 'warn' ],
 		'indent'                : [ 'warn', 'tab', { SwitchCase : 1 }],
@@ -78,6 +81,7 @@ module.exports = {
 		'no-trailing-spaces'            : [ 'warn' ],
 		'no-whitespace-before-property' : [ 'warn' ],
 		'object-curly-spacing'          : [ 'warn', 'always' ],
+		'operator-linebreak'            : [ 'warn', 'before' ],
 		'quote-props'                   : [ 'warn', 'consistent-as-needed' ],
 		'quotes'                        : [ 'warn', 'single', { avoidEscape : true }],
 		'semi-spacing'                  : [ 'warn' ],
@@ -97,7 +101,7 @@ module.exports = {
 		'prefer-const'                  : [ 'warn' ],
 		'prefer-numeric-literals'       : [ 'warn' ],
 		'prefer-template'               : [ 'warn' ],
-		// 'prefer-spread'              : [ 'warn' ],		// SHOULDDO: uncomment once we're on Node 6 and Chrome 46
+		'prefer-spread'                 : [ 'warn' ],
 		'template-curly-spacing'        : [ 'warn' ],
 		'yield-star-spacing'            : [ 'warn' ],
 	},
