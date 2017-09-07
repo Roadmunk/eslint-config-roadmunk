@@ -43,7 +43,7 @@ module.exports = {
 		// Stylistic
 		'arrow-body-style'         : [ 'warn' ],
 		'block-spacing'            : [ 'warn' ],
-		'brace-style'              : [ 'warn', 'stroustrup', { allowSingleLine : true }],
+		'brace-style'              : [ 'warn', 'stroustrup'],
 		'camelcase'                : [ 'warn', { properties : 'always' }],
 		'no-array-constructor'     : [ 'warn' ],
 		'no-nested-ternary'        : [ 'warn' ],
@@ -85,7 +85,7 @@ module.exports = {
 		'quote-props'                   : [ 'warn', 'consistent-as-needed' ],
 		'quotes'                        : [ 'warn', 'single', { avoidEscape : true }],
 		'semi-spacing'                  : [ 'warn' ],
-		'semi'                          : [ 'warn', 'always' ],
+		//'semi'                        : [ 'warn', 'always' ],
 		'space-before-blocks'           : [ 'warn' ],
 		'space-before-function-paren'   : [ 'warn', 'never' ],
 		'space-in-parens'               : [ 'warn', 'never' ],
