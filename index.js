@@ -85,7 +85,6 @@ module.exports = {
 		'quote-props'                   : [ 'warn', 'consistent-as-needed' ],
 		'quotes'                        : [ 'warn', 'single', { avoidEscape : true }],
 		'semi-spacing'                  : [ 'warn' ],
-		//'semi'                        : [ 'warn', 'always' ],
 		'space-before-blocks'           : [ 'warn' ],
 		'space-before-function-paren'   : [ 'warn', 'never' ],
 		'space-in-parens'               : [ 'warn', 'never' ],
