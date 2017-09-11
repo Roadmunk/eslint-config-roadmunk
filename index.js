@@ -45,6 +45,7 @@ module.exports = {
 		'no-array-constructor'     : [ 'warn' ],
 		'no-nested-ternary'        : [ 'warn' ],
 		'no-mixed-spaces-and-tabs' : [ 'warn', 'smart-tabs' ],
+		'no-useless-escape'        : 'off',
 		'object-property-newline'  : [ 'warn', { allowMultiplePropertiesPerLine : true }],
 
 		// automatically fixable
