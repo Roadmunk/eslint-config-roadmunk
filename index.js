@@ -93,7 +93,6 @@ module.exports = {
 		'generator-star-spacing'        : [ 'warn', 'neither' ],
 		'no-useless-rename'             : [ 'warn' ],
 		'no-var'                        : [ 'warn' ],
-		// 'prefer-arrow-callback'      : [ 'warn' ],
 		'prefer-const'                  : [ 'warn' ],
 		'prefer-numeric-literals'       : [ 'warn' ],
 		'prefer-template'               : [ 'warn' ],
