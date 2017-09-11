@@ -34,16 +34,13 @@ module.exports = {
 		'no-loop-func'    : 'error',
 		'no-implied-eval' : 'warn',
 
-		// Documentation
-		'valid-jsdoc' : ['error', { requireReturn : false }],
-
 		// Variables
 		'no-unused-vars' : 'error',
 
 		// Stylistic
 		'arrow-body-style'         : [ 'warn' ],
 		'block-spacing'            : [ 'warn' ],
-		'brace-style'              : [ 'warn', 'stroustrup'],
+		'brace-style'              : [ 'warn', 'stroustrup' ],
 		'camelcase'                : [ 'warn', { properties : 'always' }],
 		'no-array-constructor'     : [ 'warn' ],
 		'no-nested-ternary'        : [ 'warn' ],
@@ -96,7 +93,6 @@ module.exports = {
 		'generator-star-spacing'        : [ 'warn', 'neither' ],
 		'no-useless-rename'             : [ 'warn' ],
 		'no-var'                        : [ 'warn' ],
-		//'prefer-arrow-callback'         : [ 'warn' ],
 		'prefer-const'                  : [ 'warn' ],
 		'prefer-numeric-literals'       : [ 'warn' ],
 		'prefer-template'               : [ 'warn' ],
