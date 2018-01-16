@@ -45,7 +45,6 @@ module.exports = {
 		'no-array-constructor'     : [ 'warn' ],
 		'no-nested-ternary'        : [ 'warn' ],
 		'no-mixed-spaces-and-tabs' : [ 'warn', 'smart-tabs' ],
-		'no-useless-escape'        : 'off',
 		'object-property-newline'  : [ 'warn', { allowMultiplePropertiesPerLine : true }],
 
 		// automatically fixable
@@ -81,6 +80,7 @@ module.exports = {
 		'operator-linebreak'            : [ 'warn', 'before' ],
 		'quote-props'                   : [ 'warn', 'consistent-as-needed' ],
 		'quotes'                        : [ 'warn', 'single', { avoidEscape : true }],
+		'semi'                          : [ 'warn', 'always' ],
 		'semi-spacing'                  : [ 'warn' ],
 		'space-before-blocks'           : [ 'warn' ],
 		'space-before-function-paren'   : [ 'warn', {
@@ -103,5 +103,6 @@ module.exports = {
 		'prefer-spread'           : [ 'warn' ],
 		'template-curly-spacing'  : [ 'warn' ],
 		'yield-star-spacing'      : [ 'warn' ],
+		'no-return-await'         : [ 'warn' ],
 	},
-}
+};
