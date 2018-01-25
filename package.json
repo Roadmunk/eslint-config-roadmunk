@@ -1,10 +1,22 @@
 {
-	"name"        : "eslint-config-roadmunk",
-	"version"     : "2.0.5",
-	"description" : "This holds the base Roadmunk shop standard ESLint configuration file.",
-	"license"     : "MIT",
-	"repository"  : "Roadmunk/eslint-config-roadmunk",
-	"peerDependencies": {
-		"eslint" : "^4.10.0"
-	}
+  "name": "@roadmunk/eslint-config-roadmunk",
+  "version": "2.0.5",
+  "description": "This holds the base Roadmunk shop standard ESLint configuration file.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roadmunk/eslint-config-roadmunk.git"
+  },
+  "peerDependencies": {
+    "eslint": "^4.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Roadmunk/eslint-config-roadmunk/issues"
+  },
+  "homepage": "https://github.com/Roadmunk/eslint-config-roadmunk#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roadmunk"
 }
