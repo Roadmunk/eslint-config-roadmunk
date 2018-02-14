@@ -29,10 +29,11 @@ module.exports = {
 		'valid-typeof'             : 'error',
 
 		// Best Practices
-		'no-eval'         : 'error',
-		'no-else-return'  : 'warn',
-		'no-loop-func'    : 'error',
-		'no-implied-eval' : 'warn',
+		'no-eval'               : 'error',
+		'no-else-return'        : 'warn',
+		'no-loop-func'          : 'error',
+		'no-implied-eval'       : 'warn',
+		'no-buffer-constructor' : 'error',
 
 		// Variables
 		'no-unused-vars' : 'error',
@@ -46,6 +47,7 @@ module.exports = {
 		'no-nested-ternary'        : [ 'warn' ],
 		'no-mixed-spaces-and-tabs' : [ 'warn', 'smart-tabs' ],
 		'object-property-newline'  : [ 'warn', { allowMultiplePropertiesPerLine : true }],
+		'func-style'               : [ 'warn', 'declaration', { allowArrowFunctions : true }],
 
 		// automatically fixable
 		'no-unsafe-negation'    : [ 'warn' ],
