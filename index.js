@@ -107,5 +107,8 @@ module.exports = {
 		'yield-star-spacing'      : [ 'warn' ],
 		'no-return-await'         : [ 'warn' ],
 		'object-shorthand'        : [ 'warn', 'properties' ],
+		'complexity'              : [ 'warn', { max : 25 }],
+		'max-statements'          : [ 'warn', { max : 50 }],
+		'max-params'              : [ 'warn', { max : 5 }],
 	},
 };
