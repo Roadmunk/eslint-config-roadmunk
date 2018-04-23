@@ -106,5 +106,6 @@ module.exports = {
 		'template-curly-spacing'  : [ 'warn' ],
 		'yield-star-spacing'      : [ 'warn' ],
 		'no-return-await'         : [ 'warn' ],
+		'object-shorthand'        : [ 'warn', 'properties' ],
 	},
 };
