@@ -10,6 +10,10 @@ module.exports = {
 		require      : true,
 	},
 
+	plugins : [
+		'@roadmunk/roadmunk-custom',
+	],
+
 	rules : {
 		// Possible Errors
 		'no-cond-assign'           : 'error',
@@ -107,5 +111,9 @@ module.exports = {
 		'yield-star-spacing'      : [ 'warn' ],
 		'no-return-await'         : [ 'warn' ],
 		'object-shorthand'        : [ 'warn', 'properties' ],
+
+		// Roadmunk's custom rules
+		'@roadmunk/roadmunk-custom/no-lodash-isnull'      : 'error',
+		'@roadmunk/roadmunk-custom/no-lodash-isundefined' : 'error',
 	},
 };
