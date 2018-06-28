@@ -8,6 +8,7 @@
     "url": "git+https://github.com/Roadmunk/eslint-config-roadmunk.git"
   },
   "peerDependencies": {
+    "@roadmunk/eslint-plugin-roadmunk-custom": "^1.0.2",
     "eslint": "^4.10.0"
   },
   "bugs": {
@@ -18,9 +19,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Roadmunk",
-  "devDependencies": {
-    "@roadmunk/eslint-plugin-roadmunk-custom": "^1.0.2",
-    "eslint": "^4.19.1"
-  }
+  "author": "Roadmunk"
 }
