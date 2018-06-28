@@ -1,6 +1,6 @@
 {
   "name": "@roadmunk/eslint-config-roadmunk",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "This holds the base Roadmunk shop standard ESLint configuration file.",
   "license": "MIT",
   "repository": {
