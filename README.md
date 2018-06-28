@@ -6,7 +6,7 @@ Use this into all NodeJS projects as follows:
 	```
 	{
 		"devDependencies" : {
-			"@roadmunk/eslint-config-roadmunk": "^2.0.8",
+			"@roadmunk/eslint-config-roadmunk": "^3.0.0",
 		}
 	}
 	```
