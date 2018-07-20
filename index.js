@@ -62,12 +62,12 @@ module.exports = {
 		'no-implicit-coercion'  : [ 'warn', { allow : [ '!!' ] } ],
 		'yoda'                  : [ 'warn' ],
 		'no-undef-init'         : [ 'warn' ],
-		'array-bracket-spacing' : [ 'warn', 'always', { objectsInArrays : true, arraysInArrays : true } ],
-		'comma-dangle'          : [ 'warn', { objects : 'always-multiline', arrays : 'always-multiline', functions : 'never' } ],
+		'array-bracket-spacing' : [ 'warn', 'always', { objectsInArrays: true, arraysInArrays : true } ],
+		'comma-dangle'          : [ 'warn', { objects : 'always-multiline', arrays: 'always-multiline', functions: 'never' } ],
 		'comma-spacing'         : [ 'warn' ],
 		'comma-style'           : [ 'warn' ],
 		'curly'                 : [ 'warn' ],
-		'eol-last'              : [ 'warn' ],
+		'eol-last'              : [ 'error', 'always' ],
 		'func-call-spacing'     : [ 'warn' ],
 		'indent'                : [ 'warn', 'tab', { SwitchCase : 1 } ],
 		'key-spacing'           : [ 'warn', {
@@ -87,6 +87,7 @@ module.exports = {
 		'quote-props'                   : [ 'warn', 'consistent-as-needed' ],
 		'quotes'                        : [ 'warn', 'single', { avoidEscape : true } ],
 		'semi'                          : [ 'warn', 'always' ],
+		'computed-property-spacing'     : [ 'warn', 'never' ],
 		'semi-spacing'                  : [ 'warn' ],
 		'space-before-blocks'           : [ 'warn' ],
 		'space-before-function-paren'   : [ 'warn', {
@@ -110,6 +111,7 @@ module.exports = {
 		'template-curly-spacing'  : [ 'warn' ],
 		'yield-star-spacing'      : [ 'warn' ],
 		'no-return-await'         : [ 'warn' ],
+		'no-return-assign'        : [ 'error', 'always' ],
 		'object-shorthand'        : [ 'warn', 'properties' ],
 
 		// Roadmunk's custom rules
