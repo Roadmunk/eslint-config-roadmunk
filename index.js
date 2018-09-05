@@ -118,5 +118,6 @@ module.exports = {
 		'@roadmunk/roadmunk-custom/no-lodash-isnull'      : 'error',
 		'@roadmunk/roadmunk-custom/no-lodash-isundefined' : 'error',
 		'@roadmunk/roadmunk-custom/align-assign'          : 'error',
+		'@roadmunk/roadmunk-custom/order-require'         : 'error',
 	},
 };
