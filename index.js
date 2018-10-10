@@ -62,8 +62,8 @@ module.exports = {
 		'no-implicit-coercion'  : [ 'warn', { allow : [ '!!' ] } ],
 		'yoda'                  : [ 'warn' ],
 		'no-undef-init'         : [ 'warn' ],
-		'array-bracket-spacing' : [ 'warn', 'always', { objectsInArrays: true, arraysInArrays : true } ],
-		'comma-dangle'          : [ 'warn', { objects : 'always-multiline', arrays: 'always-multiline', functions: 'never' } ],
+		'array-bracket-spacing' : [ 'warn', 'always', { objectsInArrays : true, arraysInArrays : true } ],
+		'comma-dangle'          : [ 'warn', { objects : 'always-multiline', arrays : 'always-multiline', functions : 'never' } ],
 		'comma-spacing'         : [ 'warn' ],
 		'comma-style'           : [ 'warn' ],
 		'curly'                 : [ 'warn' ],
@@ -119,5 +119,6 @@ module.exports = {
 		'@roadmunk/roadmunk-custom/no-lodash-isundefined' : 'error',
 		'@roadmunk/roadmunk-custom/align-assign'          : 'error',
 		'@roadmunk/roadmunk-custom/order-require'         : 'error',
+		'@roadmunk/roadmunk-custom/assert-length'         : 'error',
 	},
 };
