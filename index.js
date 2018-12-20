@@ -1,5 +1,8 @@
 module.exports = {
-	extends : 'eslint:recommended',
+	extends : [
+		'eslint:recommended',
+		'plugin:vue/strongly-recommended',
+	],
 
 	parserOptions : { ecmaVersion : 6 },
 
@@ -121,5 +124,18 @@ module.exports = {
 		'@roadmunk/roadmunk-custom/align-assign'                   : [ 'error', { maxSpaces : 25 } ],
 		'@roadmunk/roadmunk-custom/order-require'                  : 'error',
 		'@roadmunk/roadmunk-custom/assert-length'                  : 'error',
+
+		// Vue: disable some extended rules
+		'vue/max-attributes-per-line'                : 'off', // doesn't work with our pattern of allowing `class` and `id` static attrs on first line
+		'vue/require-default-prop'                   : 'off',
+
+		// Vue: configure extended rules
+		'vue/component-name-in-template-casing' : [ 'error', 'kebab-case' ],
+		'vue/html-indent'                       : [ 'error', 'tab' ],
+
+		// Vue: enable extra rules
+		'vue/no-v-html'           : 'error',
+		'vue/order-in-components' : 'error',
+		'vue/this-in-template'    : 'warning',
 	},
 };
