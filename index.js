@@ -126,7 +126,6 @@ module.exports = {
 		'@roadmunk/roadmunk-custom/assert-length'                  : 'error',
 
 		// Vue: disable some extended rules
-		'vue/no-side-effects-in-computed-properties' : 'off', // SHOULDDO: enable this
 		'vue/max-attributes-per-line'                : 'off', // doesn't work with our pattern of allowing `class` and `id` static attrs on first line
 		'vue/require-default-prop'                   : 'off',
 
