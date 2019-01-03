@@ -132,6 +132,7 @@ module.exports = {
 		// Vue: configure extended rules
 		'vue/component-name-in-template-casing' : [ 'error', 'kebab-case' ],
 		'vue/html-indent'                       : [ 'error', 'tab' ],
+		'vue/no-multi-spaces'                   : [ 'error', { "ignoreProperties" : true } ], // allow aligning of object properties
 
 		// Vue: enable extra rules
 		'vue/no-v-html'           : 'error',
