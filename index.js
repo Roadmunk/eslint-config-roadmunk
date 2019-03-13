@@ -124,8 +124,8 @@ module.exports = {
 		'@roadmunk/roadmunk-custom/align-assign'                    : [ 'error', { maxSpaces : 25 } ],
 		'@roadmunk/roadmunk-custom/order-require'                   : 'error',
 		'@roadmunk/roadmunk-custom/assert-length'                   : 'error',
-        '@roadmunk/roadmunk-custom/log-message-length'              : 'error',
-        '@roadmunk/roadmunk-custom/no-require-views'                : 'warning',
+		'@roadmunk/roadmunk-custom/log-message-length'              : 'error',
+		'@roadmunk/roadmunk-custom/no-require-views'                : 'warning',
 
 		// Vue: disable some extended rules
 		'vue/max-attributes-per-line'                : 'off', // doesn't work with our pattern of allowing `class` and `id` static attrs on first line
