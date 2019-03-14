@@ -125,7 +125,7 @@ module.exports = {
 		'@roadmunk/roadmunk-custom/order-require'                   : 'error',
 		'@roadmunk/roadmunk-custom/assert-length'                   : 'error',
 		'@roadmunk/roadmunk-custom/log-message-length'              : 'error',
-		'@roadmunk/roadmunk-custom/no-require-views'                : 'warning',
+		'@roadmunk/roadmunk-custom/no-require-views'                : 'warn',
 
 		// Vue: disable some extended rules
 		'vue/max-attributes-per-line'                : 'off', // doesn't work with our pattern of allowing `class` and `id` static attrs on first line
@@ -139,6 +139,6 @@ module.exports = {
 		// Vue: enable extra rules
 		'vue/no-v-html'           : 'error',
 		'vue/order-in-components' : 'error',
-		'vue/this-in-template'    : 'warning',
+		'vue/this-in-template'    : 'warn',
 	},
 };
