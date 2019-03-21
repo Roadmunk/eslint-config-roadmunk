@@ -20,7 +20,7 @@
   },
   "author": "Roadmunk",
   "dependencies": {
-    "@roadmunk/eslint-plugin-roadmunk-custom": "^1.6.1",
+    "@roadmunk/eslint-plugin-roadmunk-custom": "^1.7.0",
     "eslint-plugin-vue": "^5.0.0"
   }
 }
