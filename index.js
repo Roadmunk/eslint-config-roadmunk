@@ -127,6 +127,7 @@ module.exports = {
 		'@roadmunk/roadmunk-custom/log-message-length'              : 'error',
 		'@roadmunk/roadmunk-custom/no-require-views'                : 'warn',
 		'@roadmunk/roadmunk-custom/no-log-info'                     : 'error',
+		'@roadmunk/roadmunk-custom/no-require-path-js'              : 'error',
 
 		// Vue: disable some extended rules
 		'vue/max-attributes-per-line'                : 'off', // doesn't work with our pattern of allowing `class` and `id` static attrs on first line
