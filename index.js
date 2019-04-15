@@ -116,7 +116,7 @@ module.exports = {
 		'no-return-await'         : [ 'error' ],
 		'no-return-assign'        : [ 'error', 'always' ],
 		'object-shorthand'        : [ 'error', 'properties' ],
-		'complexity'              : [ 'error', { max : 25 }],
+		'complexity'              : [ 'error', { max : 30 }],
 		'max-statements'          : [ 'error', { max : 50 }],
 		'max-params'              : [ 'error', { max : 5 }],
 
