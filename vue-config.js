@@ -1,6 +1,6 @@
 module.exports = {
 	extends : [
-		'./index',
+		'./index.js',
 		'plugin:vue/strongly-recommended',
 	],
 	rules : {
