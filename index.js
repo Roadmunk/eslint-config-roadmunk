@@ -1,7 +1,6 @@
 module.exports = {
 	extends : [
 		'eslint:recommended',
-		'plugin:vue/strongly-recommended',
 	],
 
 	parserOptions : { ecmaVersion : 6 },
@@ -116,34 +115,20 @@ module.exports = {
 		'no-return-await'         : [ 'error' ],
 		'no-return-assign'        : [ 'error', 'always' ],
 		'object-shorthand'        : [ 'error', 'properties' ],
-		'complexity'              : [ 'error', { max : 30 }],
-		'max-statements'          : [ 'error', { max : 50 }],
-		'max-params'              : [ 'error', { max : 5 }],
+		'complexity'              : [ 'error', { max : 30 } ],
+		'max-statements'          : [ 'error', { max : 50 } ],
+		'max-params'              : [ 'error', { max : 5 } ],
 
 		// Roadmunk's custom rules
-		'@roadmunk/roadmunk-custom/no-lodash-isnull'                : 'error',
-		'@roadmunk/roadmunk-custom/no-lodash-isundefined'           : 'error',
-		'@roadmunk/roadmunk-custom/no-lodash-deprecated-functions'  : 'error',
-		'@roadmunk/roadmunk-custom/align-assign'                    : [ 'error', { maxSpaces : 25 } ],
-		'@roadmunk/roadmunk-custom/order-require'                   : 'error',
-		'@roadmunk/roadmunk-custom/assert-length'                   : 'error',
-		'@roadmunk/roadmunk-custom/log-message-length'              : 'error',
-		'@roadmunk/roadmunk-custom/no-require-views'                : 'warn',
-		'@roadmunk/roadmunk-custom/no-log-info'                     : 'error',
-		'@roadmunk/roadmunk-custom/no-require-path-js'              : 'error',
-
-		// Vue: disable some extended rules
-		'vue/max-attributes-per-line'                : 'off', // doesn't work with our pattern of allowing `class` and `id` static attrs on first line
-		'vue/require-default-prop'                   : 'off',
-
-		// Vue: configure extended rules
-		'vue/component-name-in-template-casing' : [ 'error', 'kebab-case' ],
-		'vue/html-indent'                       : [ 'error', 'tab' ],
-		'vue/no-multi-spaces'                   : [ 'error', { "ignoreProperties" : true } ], // allow aligning of object properties
-
-		// Vue: enable extra rules
-		'vue/no-v-html'           : 'error',
-		'vue/order-in-components' : 'error',
-		'vue/this-in-template'    : 'warn',
+		'@roadmunk/roadmunk-custom/no-lodash-isnull'               : 'error',
+		'@roadmunk/roadmunk-custom/no-lodash-isundefined'          : 'error',
+		'@roadmunk/roadmunk-custom/no-lodash-deprecated-functions' : 'error',
+		'@roadmunk/roadmunk-custom/align-assign'                   : [ 'error', { maxSpaces : 25 } ],
+		'@roadmunk/roadmunk-custom/order-require'                  : 'error',
+		'@roadmunk/roadmunk-custom/assert-length'                  : 'error',
+		'@roadmunk/roadmunk-custom/log-message-length'             : 'error',
+		'@roadmunk/roadmunk-custom/no-require-views'               : 'warn',
+		'@roadmunk/roadmunk-custom/no-log-info'                    : 'error',
+		'@roadmunk/roadmunk-custom/no-require-path-js'             : 'error',
 	},
 };
