@@ -18,6 +18,7 @@ module.exports = {
 	},
 	plugins : [
 		'react',
+		'react-hooks',
 		'jest',
 		'jsx-a11y',
 		'import',
@@ -54,5 +55,7 @@ module.exports = {
 		'jsx-a11y/no-static-element-interactions'   : 'error',
 		'jsx-a11y/interactive-supports-focus'       : 'error',
 		'import/order'                              : [ 'error', { groups : [ 'builtin', 'external', 'unknown', 'internal', 'parent', 'sibling', 'index' ] } ],
+		'react-hooks/rules-of-hooks'                : 'error',
+		'react-hooks/exhaustive-deps'               : 'warn',
 	},
 };
