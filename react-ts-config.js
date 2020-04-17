@@ -26,7 +26,7 @@ module.exports = {
 	],
 	rules : {
 		'no-unused-vars'                            : 'off', // overridden by @typescript-eslint/no-unused-vars
-		'@typescript-eslint/no-unused-vars'         : [ 'error', { varsIgnorePattern: '^_' } ],
+		'@typescript-eslint/no-unused-vars'         : [ 'error', { varsIgnorePattern : '^_' } ],
 		'@typescript-eslint/class-name-casing'      : 'error',
 		'@typescript-eslint/member-delimiter-style' : 'error',
 		'react/boolean-prop-naming'                 : 'error',
