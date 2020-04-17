@@ -119,6 +119,8 @@ module.exports = {
 		'max-statements'          : [ 'error', { max : 50 } ],
 		'max-params'              : [ 'error', { max : 5 } ],
 
+		'no-prototype-builtins' : 'off',
+
 		// Roadmunk's custom rules
 		'@roadmunk/roadmunk-custom/no-lodash-isnull'               : 'error',
 		'@roadmunk/roadmunk-custom/no-lodash-isundefined'          : 'error',
