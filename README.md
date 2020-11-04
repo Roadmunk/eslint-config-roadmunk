@@ -6,7 +6,7 @@ Use this into all NodeJS projects as follows:
 	```js
 	{
 		"devDependencies" : {
-			"@roadmunk/eslint-config-roadmunk": "^3.3.0",
+			"@roadmunk/eslint-config-roadmunk": "^3.17.2",
 		}
 	}
 	```
@@ -32,3 +32,10 @@ Use this into all NodeJS projects as follows:
 		"extends" : "./node_modules/eslint-config-roadmunk/react-ts-config.js",
 	}
 	```
+
+# Publishing a new version
+
+1. Bump the version in `package.json`
+2. Create a new release in GitHub. 
+
+This will publish a new version of the package to both npm and github.
