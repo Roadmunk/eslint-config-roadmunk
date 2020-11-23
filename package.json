@@ -5,16 +5,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Roadmunk/eslint-config-roadmunk.git"
+    "url": "git+https://gitlab.com/roadmunk/eslint-config-roadmunk.git"
   },
   "peerDependencies": {
     "eslint": "^6.0.0",
     "typescript": "^3.7.3"
   },
   "bugs": {
-    "url": "https://github.com/Roadmunk/eslint-config-roadmunk/issues"
+    "url": "https://gitlab.com/roadmunk/eslint-config-roadmunk/issues"
   },
-  "homepage": "https://github.com/Roadmunk/eslint-config-roadmunk#readme",
+  "homepage": "https://gitlab.com/roadmunk/eslint-config-roadmunk#readme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
